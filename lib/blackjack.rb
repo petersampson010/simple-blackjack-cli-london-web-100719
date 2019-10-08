@@ -55,6 +55,7 @@ def runner
   if total > 21
     end_game(total)
   welcome 
+  =====
   total = initial_round
   hit?(total)
   if total > 21
